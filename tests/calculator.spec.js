@@ -19,7 +19,7 @@ describe("calculator test suite", function() {
     });
 
     it("Subtraction Test", function() {
-
+        homepage.browserSleep1(2000);
     });
 
     it("Multiplication Test", function() {
