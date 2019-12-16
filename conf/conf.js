@@ -1,13 +1,10 @@
-// An example configuration file.
-
+// Configuration file.
 var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
 
 var reporter = new HtmlScreenshotReporter({
     dest: 'target/screenshots',
     filename: 'my-report.html'
 });
-
-
 
 exports.config = {
   // seleniumAddress: 'http://localhost:4444/wd/hub',
@@ -28,7 +25,6 @@ exports.config = {
     jasmineNodeOpts: {
       defaultTimeoutInterval: 30000
     },
-    // ...
 
     // Setup the report before any tests start
     beforeLaunch: function() {
