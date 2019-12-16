@@ -15,7 +15,7 @@ describe("calculator test suite", function() {
         // expect(result.getText()).toEqual('10');
         homepage.checkResult('10');
         // browser.sleep(2000);
-        homepage.browserSleep(2000);
+        homepage.browserSleep(1000);
     });
 
     it("Subtraction Test", function() {
@@ -25,7 +25,7 @@ describe("calculator test suite", function() {
         homepage.secondInput(1);
         homepage.button();
         homepage.checkResult('9');
-        homepage.browserSleep(2000);
+        homepage.browserSleep(1000);
     });
 
     it("Multiplication Test", function() {
@@ -35,26 +35,26 @@ describe("calculator test suite", function() {
         homepage.secondInput(9);
         homepage.button();
         homepage.checkResult('900');
-        homepage.browserSleep(2000);
+        homepage.browserSleep(1000);
     });
 
     it("Division Test", function() {
         homepage.getURL('http://juliemr.github.io/protractor-demo/');
-        homepage.firstInput(1);
+        homepage.firstInput(10000);
         homepage.changeSelectOption('/');
-        homepage.secondInput(9);
+        homepage.secondInput(10);
         homepage.button();
-        homepage.checkResult('10');
-        homepage.browserSleep(2000);
+        homepage.checkResult('1000');
+        homepage.browserSleep(1000);
     });
 
     it("Modulus Test", function() {
         homepage.getURL('http://juliemr.github.io/protractor-demo/');
-        homepage.firstInput(1);
+        homepage.firstInput(9);
         homepage.changeSelectOption('%');
-        homepage.secondInput(9);
+        homepage.secondInput(6);
         homepage.button();
-        homepage.checkResult('10');
-        homepage.browserSleep(2000);
+        homepage.checkResult('3');
+        homepage.browserSleep(1000);
     });
 });
