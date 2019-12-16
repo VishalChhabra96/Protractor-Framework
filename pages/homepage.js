@@ -7,25 +7,30 @@ let homepage = function() {
     this.getURL = function(url) {
         browser.get(url);
     };
+
     this.firstInput = function(input) {
         Input1.sendKeys(input);
     };
+
     this.changeSelectOption = function(selectOption) {
         element(by.cssContainingText('option', selectOption)).click();
     };
+
     this.secondInput = function(input) {
         Input2.sendKeys(input);
     };
+
     this.button = function(){
         btn.click();
     };
+
     this.checkResult = function(res) {
         expect(result.getText()).toEqual(res);
     };
+
     this.browserSleep = function(ms) {
         browser.sleep(ms);
     };
 };
 
 module.exports = new homepage();
-
