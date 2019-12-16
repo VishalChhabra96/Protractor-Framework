@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55140e99-ae5c-494f-9927-986d27c4f28e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/homepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/117cddfb2ec5040005a4f51eb82c1622.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/2c555cac8c47078a2c40677528c629ef.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/36260b069a33391889b40e23470ab139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/9de166733be805fcb113b29063e1e05b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/f9d1aafb1e7917128567ab361e7d0c07.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/screenshots/my-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/screenshots/my-report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -85,16 +78,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/hello.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/example_spec.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/allure-results/07e811a0-b325-4ec1-a719-872309996b2d-testsuite.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -102,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/homepage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="210">
+              <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -147,16 +130,6 @@
               <item name="protractor-framework2" type="b2602c69:ProjectViewProjectNode" />
               <item name="protractor-framework2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="protractor-framework2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="protractor-framework2" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="protractor-framework2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="protractor-framework2" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -193,18 +166,17 @@
       <option name="presentableId" value="Default" />
       <updated>1576414033383</updated>
       <workItem from="1576414034496" duration="2146000" />
-      <workItem from="1576484450397" duration="8368000" />
+      <workItem from="1576484450397" duration="8653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10514000" />
+    <option name="totallyTimeSpent" value="10799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="25" width="1331" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19189602" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19189602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +188,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3112245" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3112245" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -266,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/homepage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
     </entry>
