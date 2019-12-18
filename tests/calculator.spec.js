@@ -5,7 +5,12 @@ describe("calculator test suite", function() {
             homepage.getURL('http://juliemr.github.io/protractor-demo/');
         }
     );
-    it("should have a title", function(){
+
+    it("URL matching", function() {
+        expect(browser.getCurrentUrl()).toEqual('http://juliemr.github.io/protractor-demo/');
+    });
+
+    it("should have a title", function() {
         expect(browser.getTitle()).toEqual('Super Calculator');
     });
 
@@ -67,7 +72,7 @@ describe("calculator test suite", function() {
         homepage.checkResult('3');
     });
 
-    afterEach(function(){
+    afterEach(function() {
         // expect(element.all(by.repeater('result in memory'))).then(function(result){result.toEqual('1')});
         homepage.browserSleep(1000);
     });
